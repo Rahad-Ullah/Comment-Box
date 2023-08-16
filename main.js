@@ -1,1 +1,1 @@
-console.log('Comment Page created');
+console.log('Design completed');
