@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Box</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="w-1/2 my-8 mx-auto">
+        <section class="my-5">
+            <h1 class="text-4xl">All Comments</h1>
+        </section>
+        <section id="comment-container" class="my-5">
+            <div class="chat chat-start">
+                <div class="chat-image avatar">
+                  <div class="w-10 rounded-full">
+                    <img src="images/user_1.png" />
+                  </div>
+                </div>
+                <div class="chat-bubble">It was said that you would, destroy the Sith, not join them.</div>
+            </div>
+            <div class="chat chat-start">
+                <div class="chat-image avatar">
+                  <div class="w-10 rounded-full">
+                    <img src="images/user_2.png" />
+                  </div>
+                </div>
+                <div class="chat-bubble">It was you who would bring balance to the Force</div>
+            </div>
+            <div class="chat chat-start">
+                <div class="chat-image avatar">
+                  <div class="w-10 rounded-full">
+                    <img src="images/user_3.png" />
+                  </div>
+                </div>
+                <div class="chat-bubble">Not leave it in Darkness</div>
+            </div>
+        </section>
+        <section class="my-8">
+            <h2 class="text-xl my-3">Comment here</h2>
+            <textarea placeholder="Type here" class="textarea textarea-bordered textarea-lg w-full max-w-2xl"></textarea>
+            <div class="flex justify-end mr-4 my-2">
+            <button id="btn-submit" class="btn btn-secondary">Publish</button>
+            </div>
+        </section>
+    </main>
+    <script>
+
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
